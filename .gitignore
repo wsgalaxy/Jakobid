@@ -71,6 +71,7 @@ Thumbs.db
 *.dll
 *.exe
 
-
+# More files to ignore
 /CmakeLists.txt.user
 /build
+/.vscode
