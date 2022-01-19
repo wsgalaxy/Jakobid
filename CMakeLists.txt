@@ -13,14 +13,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-)
-
-add_executable(Jakobid
-    ${PROJECT_SOURCES}
-)
-
-target_link_libraries(Jakobid PRIVATE Qt5::Widgets)
+add_subdirectory(src)
