@@ -1,0 +1,7 @@
+#ifndef __QTERMWIDGET_EXPORT_H__
+#define __QTERMWIDGET_EXPORT_H__
+
+#define QTERMWIDGET_EXPORT
+#define QTERMWIDGET_NO_EXPORT
+
+#endif
